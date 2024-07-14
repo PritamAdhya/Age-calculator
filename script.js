@@ -21,9 +21,9 @@ function calculateAge() {
       }
   
       resultElement.innerText = `Your age is ${ageYears} years, ${ageMonths} months, and ${ageDays} days.`;
-      resultElement.style.color = "green"; // Set the text color to green
+      resultElement.style.color = "green"; 
     } else {
-      resultElement.innerText = "Please enter your birthdate"; // Clear the result if birthdate is not entered
+      resultElement.innerText = "Please enter your birthdate"; 
       resultElement.style.color = "red";
     }
   }
